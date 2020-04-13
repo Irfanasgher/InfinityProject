@@ -1,0 +1,23 @@
+#button{
+  .button{
+    background-color: white;
+    color: #112D46;
+    border-radius: 50px;
+    border: 2px solid #112D46;
+    transition: all 0.4s ease-in-out;
+    padding: 8px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    &:hover{
+      background-color: #112D46;
+      color: white;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  .smallButton{
+
+    padding: 4px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}

@@ -1,0 +1,35 @@
+#footer{
+  background-color: #F9F9F9;
+  ul{
+    list-style: none;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    font-size: 14px;
+    li{
+      padding: 5px;
+      color: #112D46;
+      font-weight: 600;
+    }
+  }
+  .input-group{
+    border: 1px solid #112D46;
+    border-radius: 50px;
+    overflow: hidden;
+    .input-group-text{
+      background-color: #112D46;
+      color: white;
+      outline: none;
+      border: 0;
+    }
+  }
+}
+.inner-footer{
+  background-color: #112D46;
+  width: 100%;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+#feature{
+  .col-md-4.bg-gray{
+    background-color: #EEEDEB;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    overflow: hidden;
+    .image{
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover .image{
+      transform: scale(1.1);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .col-md-8 {
+    .col-md-4 {
+      button{
+        background-color: #112D46;
+        color: white;
+        width: 88%;
+        align-items: center;
+        border: 0;
+        outline: none;
+        position: absolute;
+        top: 253px;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover button{
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+      }
+      .heart{
+        position: absolute;
+        height: 25px;
+        top: 28px;
+        right: 35px;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover .heart{
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}

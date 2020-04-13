@@ -1,0 +1,44 @@
+#frame{
+  .image{
+    position: relative;
+    &:hover{
+      filter: grayscale(100%);
+    }
+  }
+  .image::after{
+    z-index: 1111;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.9);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+  h6{
+    color: #112D46;
+    margin-top: 5px;
+  }
+  .frame-now{
+    background-color: #112D46;
+    color: white;
+    position: absolute;
+    top: 100px;
+    width: 75%;
+    height: 50px;
+    margin-left: 5%;
+    z-index: 1212;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    h6{
+      color: white;
+    }
+  }
+  .col-md-2:hover .frame-now{
+    opacity: 1;
+  }
+}

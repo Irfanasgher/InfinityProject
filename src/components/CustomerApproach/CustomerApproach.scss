@@ -1,0 +1,35 @@
+#approach{
+  margin-top: 80px;
+  .col-md-6{
+    h1{
+      color: #112D46;
+    }
+    p{
+      color: #112D46;
+      position: relative;
+      left: 10px;
+      &:before {
+        display: flex;
+        position: absolute;
+        content: '';
+        margin-left: -20px;
+        margin-top: 10px;
+        height: 30px;
+        width: 2px;
+        background-color: #112D46;
+      }
+    }
+    button{
+      background-color: white;
+      color: #112D46;
+      border-radius: 50px;
+      border: 2px solid #112D46;
+      transition: all 0.4s ease-in-out;
+      &:hover{
+        background-color: #112D46;
+        color: white;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+  }
+}
